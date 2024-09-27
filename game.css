@@ -1,0 +1,81 @@
+body{
+    background-color: #982649;
+    text-align: center;
+}
+
+#h1{
+    color: rgb(238, 228, 228);
+    font-size: 2rem;
+    text-align: center;
+}
+
+#mainDiv{
+    height: 63vh;
+    /* width: 50vW; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+.secondaryDiv{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+    border: none;
+}
+
+.btn{
+    /* align-items: center; */
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 25px;
+    font-size: 3.5rem;
+    color: black;
+    background-color: rgb(187, 111, 187);
+    box-shadow: 0 0 1rem rgba(0,0,0,0,1);
+    border: none;
+}
+
+#resetBtn{
+    padding: 0.5rem;
+    border-radius: 12px;
+    border: none;
+    background-color: rgb(38, 38, 105);
+    color: white;
+}
+
+#newBtn{
+    padding: 0.5rem;
+    border-radius: 12px;
+    border: none;
+    background-color: rgb(38, 38, 105);
+    color: white;
+}
+
+.drawMsg{
+    color: rgb(238, 228, 228);
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.winningMsg{
+    color: rgb(238, 228, 228);
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.hide{
+    visibility: hidden;
+}
+
+.hideWin{
+    visibility: hidden;
+}
